@@ -9,3 +9,61 @@ my project
 <p>hi</p>
 </body>
 </html>
+
+
+
+
+# Check Git installation
+git --version
+
+# Configure Git (run once)
+git config --global user.name "DilipDC"
+git config --global user.email "your-email@example.com"
+
+# Go to your project folder
+cd ~/Desktop/my-project
+
+# Initialize Git repository
+git init
+
+# Check repository status
+git status
+
+# Add a specific file
+git add index.html
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial commit"
+
+# View changes
+git diff
+
+# View commit history
+git log
+
+# Check current branch
+git branch
+
+# Rename branch to main
+git branch -M main
+
+# Connect local repository to GitHub
+git remote add origin https://github.com/DilipDC/MYPROJECT.git
+
+# Upload project to GitHub (first time)
+git push -u origin main
+
+# After making changes
+git status
+git add .
+git commit -m "Updated HTML page"
+git push
+
+# Download latest changes from GitHub
+git pull
+
+# Clone an existing GitHub repository
+git clone https://github.com/USERNAME/REPOSITORY.git
